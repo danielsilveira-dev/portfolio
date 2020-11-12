@@ -176,8 +176,8 @@ header nav ul li a:hover {
     border: 0;
   }
   .header__image {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
 
     border-radius: 50%;
 
@@ -188,6 +188,47 @@ header nav ul li a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
+  }
+  .header__txt {
+    margin: 0 auto;
+  }
+  .header__social {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  header nav {
+    width: auto;
+    margin: 0;
+  }
+  header nav ul li a {
+    font-size: 2.5rem;
+  }
+  .content {
+    width: 100%;
+    margin: 0;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+  }
+  header {
+    width: 100vw;
+    height: auto;
+
+    margin: 0;
+    padding: 2rem 0;
+
+    position: static;
+    border: 0;
+  }
+  .header__image {
+    width: 50%;
+    height: 50%;
+
+    border-radius: 50%;
   }
   .header__txt {
     margin: 0 auto;
